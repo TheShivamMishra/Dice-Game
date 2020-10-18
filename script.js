@@ -6,8 +6,10 @@ document.getElementsByTagName("button")[0].addEventListener("click",function(){
     var img2 = "./images/dice" + p2 + ".png";
     function anim(){
         document.getElementById("img1").style.transform = "rotateY(180deg)";
+        document.getElementById("img1").style.msTransform = "rotateY(180deg)";
         document.getElementById("img1").style.transition = "all 1s";
         document.getElementById("img2").style.transform = "rotateY(180deg)";
+        document.getElementById("img2").style.msTransform = "rotateY(180deg)";
         document.getElementById("img2").style.transition = "all 1s";
         document.getElementById("img1").src = img1;
         document.getElementById("img2").src = img2;
