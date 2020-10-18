@@ -49,13 +49,13 @@ footer {
 
 }
 
-@media (max-width: 520px){
+@media (min-width: 520px){
   h1{
       font-size:3.5rem;
   }
   
   img{
-    width:70%;
+    width:60%;
   }
 
   button{
