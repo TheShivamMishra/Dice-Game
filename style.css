@@ -49,9 +49,9 @@ footer {
 
 }
 
-@media (min-width: 520px){
+@media (min-width:0px) and (max-width: 400px){
   h1{
-      font-size:3.5rem;
+      font-size:3.5rem;    
   }
   
   img{
